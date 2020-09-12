@@ -28,7 +28,7 @@ class About extends Component {
     // Make a request for a user with a given ID
     const that = this;
     axios
-      .post(`http://localhost:4000/translate`, { text })
+      .post(`https://api.mobtranslate.com//translate`, { text })
       .then(function (response) {
         // handle success
 
