@@ -47,7 +47,7 @@ class About extends Component {
     const { text, translatedText } = this.state;
     return (
       <div>
-        <h3>How you speak</h3>
+        <h3>How you speaka</h3>
         <textarea onChange={this.onTextChange}>{text}</textarea>
         <br />
         <br />
