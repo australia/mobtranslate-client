@@ -42,7 +42,7 @@ class About extends Component {
         console.log(" no idea", error);
       });
   };
-
+  // a
   render() {
     const { text, translatedText } = this.state;
     return (
