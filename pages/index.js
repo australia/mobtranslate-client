@@ -13,7 +13,7 @@ class About extends Component {
   onTextChange = (ev) => {
     const { value } = ev.target;
     // this.debouncedTextChange.cancel();
-    console.log("trying to translate", value);
+    console.log("tryibng to translate", value);
     this.setState({ text: value }, () => {
       this.fetchWordData();
     });
