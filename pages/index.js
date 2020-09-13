@@ -9,6 +9,7 @@ const Container = styled.div`
   font-family: "Open Sans", sans-serif;
   max-width: 400px;
   margin: auto;
+  padding: 20px;
 `;
 
 const Dropdown = styled.select``;
