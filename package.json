@@ -13,11 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "firebase-admin": "^9.1.1",
     "firebase-functions": "^3.11.0",
     "lodash": "^4.17.20",
     "next": "^9.5.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
   }
 }
