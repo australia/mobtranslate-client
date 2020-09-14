@@ -123,7 +123,11 @@ class About extends Component {
         <br />
         <br />
         <Footer>
-          MOB TRANSLATE is a fully open source and free project.
+          MOB TRANSLATE is a fully open source and{" "}
+          <a href="https://github.com/australia/mobtranslate-server/">
+            free project
+          </a>
+          .
           <br />
           <br />
           Currently in development and looking for help.
