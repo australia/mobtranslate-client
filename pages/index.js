@@ -49,6 +49,7 @@ class About extends Component {
       text: "",
       translatedText: "",
     };
+    this.debouncedTranslate = _.debounce(this.fetchWordData, 500, {});
   }
 
   onTextChange = (ev) => {
@@ -56,7 +57,7 @@ class About extends Component {
     // this.debouncedTextChange.cancel();
     console.log("tryibng to translate", value);
     this.setState({ text: value }, () => {
-      this.fetchWordData();
+      this.debouncedTranslate();
     });
     // this.debouncedTextChange = _.debounce(this.fetchWordData, 1000);
     // axios request
@@ -65,7 +66,6 @@ class About extends Component {
 
   fetchWordData = () => {
     const { text } = this.state;
-    console.log("fetching translation data", text);
     // Make a request for a user with a given ID
     const that = this;
     axios
