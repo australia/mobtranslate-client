@@ -134,9 +134,15 @@ class About extends Component {
           .
           <br />
           <br />
-          Currently in development and looking for help. Please email
-          thomasalwyndavis@gmail.com, I'm friendly and can find a job for pretty
-          much anyone.
+          Currently in development and looking for help.
+          <br />
+          <br />
+          Please email thomasalwyndavis@gmail.com, I'm friendly and can find a
+          job for pretty much anyone.
+          <br />
+          <br />
+          Telegram:{" "}
+          <a href="https://t.me/mobtranslate">https://t.me/mobtranslate</a>
           <br />
           <br />
           I've only translated 15% of the Yalanji dictionary, so better results
