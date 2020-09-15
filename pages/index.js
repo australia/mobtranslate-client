@@ -109,7 +109,7 @@ class About extends Component {
           </DictionaryLink>
         </LanguageContainer>
         <TextInput
-          placeholder="Enter text e.g. I'm a woman who likes good food"
+          placeholder="Enter text e.g. hello I'm a woman who likes good food"
           onChange={this.onTextChange}
         >
           {text}
