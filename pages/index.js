@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import _ from "lodash";
 import axios from "axios";
 import styled from "styled-components";
-
+import Head from "next/head";
 const Title = styled.h1``;
 
 const Container = styled.div`
   font-family: "Open Sans", sans-serif;
-  max-width: 400px;
+  max-width: 420px;
   margin: auto;
   padding: 20px;
 `;
@@ -88,12 +88,16 @@ class About extends Component {
     const { text, translatedText } = this.state;
     return (
       <Container>
+        <title>
+          MOB TRANSLATE - "Google translate" for Australian Aboriginal languages
+        </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
         <Title>MOB TRANSLATE</Title>
-        <Byline>Google translate for Australian Aboriginal languages</Byline>
+        <Byline>"Google translate" for Australian Aboriginal languages</Byline>
         <br />
         <LanguageContainer>
           <Dropdown>
@@ -130,10 +134,13 @@ class About extends Component {
           .
           <br />
           <br />
-          Currently in development and looking for help. Please email thomasalwyndavis@gmail.com, I'm friendly and can find a job for pretty much anyone.
+          Currently in development and looking for help. Please email
+          thomasalwyndavis@gmail.com, I'm friendly and can find a job for pretty
+          much anyone.
           <br />
           <br />
-          I've only translated 15% of the Yalanji dictionary, so better results will be coming soon.
+          I've only translated 15% of the Yalanji dictionary, so better results
+          will be coming soon.
           <br />
           <br />
           In memory of Tuan Coolwell
